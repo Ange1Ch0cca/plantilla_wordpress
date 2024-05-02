@@ -165,30 +165,41 @@
             <!-- Start right Content here -->
             <!-- ============================================================== -->
             <div class="main-content">
-
                 <div class="page-content">
                     <div class="container-fluid row">
 
                         <!-- start page title -->
                         <?php
-                        for ($i=0; $i < 10 ; $i++) { ?>
-                            <div class="col-md-3">
+                        for ($i = 9; $i >= 0; $i--) { ?>
+                            <div class="col-lg-3">
+                                <!-- Simple card -->
                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="https://www.questionpro.com/blog/wp-content/uploads/2020/10/1504.jpg" alt="img">
-                                    <h5 class="card-title">Titulo</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, exercitationem.</p>
+                                    <img class="card-img-top img-fluid" src="https://media.gqmagazine.fr/photos/65115b0b7b7a59f967918c00/16:9/w_2560%2Cc_limit/iPhone16-Ultra.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> APPLE</h5>
+                                        <p class="card-text">Celular Apple Iphone 13 128gb</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li  class="list-group-item" style="color: red"><b>Precio Online: S/ 2,999.00 </b><span style="background-color: red; color:white" class="badge">- 40%</span></li>
+                                        <li class="list-group-item"><b>Precio Regular: S/ 3,099.00</b></li>
+                                    </ul>
+                                    <div class="card-body text-center">
+                                        <a href="#" class="card-link"><button type="button" class="btn btn-outline-dark btn-rounded waves-effect waves-light"><i class="fas fa-cart-plus"></i> Agregar al carrito</button></a>
+                                    </div>
                                 </div>
                             </div>
                         <?php } ?>
                         <!-- end page title -->
 
-                    </div> <!-- container-fluid -->
+                    </div> 
+                    <!-- container-fluid -->
                 </div>
+                <!-- container-fluid -->
                 <!-- End Page-content -->
 
-                <?php include ('layout/footer.php');?>
-
+                <?php include('layout/footer.php'); ?>
             </div>
+
             <!-- end main content-->
 
         </div>
