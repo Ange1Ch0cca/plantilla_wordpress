@@ -165,67 +165,47 @@
             <!-- Start right Content here -->
             <!-- ============================================================== -->
             <div class="main-content">
-            <div class="page-content">
+            <div class="page-content d-flex justify-content-center align-items-center">
             <div class="container-fluid">
-                <!-- start page title -->
+                <!-- Título del formulario -->
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 d-none d-sm-block">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <img width="100%" src="https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt4d6d161ef903901b/66393ad070b5036c8d5c34cb/huincha-060524-10csi-mama.jpg?format=webp&quality=70&width=90p" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 d-block d-sm-none">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <img width="100%" src="https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt20f98cdc00774e75/66393ace5857a6240dc47053/huincha-m-060524-10csi-mama.jpg?disable=upscale&format=webp&quality=70&width=720" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- end page title -->
-                <div class="row justify-content-center"> <!-- Centering the carousel -->
-                <div class="col-1"></div>
-                    <div class="col-xl-10">
+                    <div class="col-3"></div>
+                    <div class="col-6">
                         <div class="card">
                             <div class="card-body">
-
-                                <h4 class="card-title">With Indicators</h4>
-                                <p class="card-subtitle mb-4">You can also add the indicators to the carousel, alongside the controls, too.</p>
-
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-7.jpg" alt="First slide">
+                                <h4 class="card-title">Formulario Horizontal</h4>
+                                <p class="card-subtitle mb-4">¡Únete a nuestra comunidad y mantente conectado! Completa el formulario a continuación y sé parte de nuestras promociones exclusivas, descuentos especiales y noticias emocionantes. Tu opinión es importante para nosotros, ¡esperamos saber de ti pronto!</p>
+                                
+                                <!-- Formulario -->
+                                <form>
+                                        <div class="form-group row">
+                                            <div class="col-lg-6 mb-3 mb-lg-0">
+                                                <input class="form-control" type="text" id="name" placeholder="Nombre">                                                       
+                                            </div> 
+                                            <div class="col-lg-6">
+                                                <input class="form-control" type="email" id="example-email-input3" placeholder="Correo electrónico">
+                                            </div>                                                   
                                         </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-1.jpg" alt="Second slide">
+                                        <div class="form-group row">
+                                            <div class="col-sm-12">
+                                                <input class="form-control" type="text" id="subject2" placeholder="Asunto">                                                       
+                                            </div>                                                    
                                         </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-2.jpg" alt="Third slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div> <!-- end card-body-->
-                        </div> <!-- end card-->
-                    </div> <!-- end col -->
-                    <div class="col-1"></div>
-                </div>
-            </div> <!-- container-fluid -->
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Tu mensaje"></textarea>
+                                        </div>                                                
+                                        <button type="submit" class="btn btn-primary btn-block px-4">Enviar mensaje</button>
+                                    </form>
+                            </div> <!-- Fin de card-body-->
+                        </div> <!-- Fin de card-->
+                    </div>
+                    <div class="col-3"></div>
+                </div>     
+                <!-- Fin del título del formulario -->
+            </div> <!-- Fin de container-fluid -->
 
+            <!-- End Page-content -->
 
-                </div>
-                <!-- End Page-content -->
 
                 <?php include('layout/footer.php'); ?>
             </div>

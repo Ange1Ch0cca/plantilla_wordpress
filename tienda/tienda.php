@@ -136,7 +136,7 @@
                                         <div class="media">
                                             <img src="assets/images/users/avatar-3.jpg"
                                                 class="mr-3 rounded-circle avatar-xs" alt="user-pic">
-                                            <div class="media-body">
+                                            <div class="media-body">https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt4d6d161ef903901b/66393ad070b5036c8d5c34cb/huincha-060524-10csi-mama.jpg?format=webp&quality=70&width=90p
                                                 <h6 class="mt-0 mb-1">Victoria Mendis</h6>
                                                 <p class="font-size-12 mb-1">Just upgraded to premium account.</p>
                                                 <p class="font-size-12 mb-0 text-muted"><i
@@ -165,66 +165,36 @@
             <!-- Start right Content here -->
             <!-- ============================================================== -->
             <div class="main-content">
-            <div class="page-content">
-            <div class="container-fluid">
-                <!-- start page title -->
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 d-none d-sm-block">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <img width="100%" src="https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt4d6d161ef903901b/66393ad070b5036c8d5c34cb/huincha-060524-10csi-mama.jpg?format=webp&quality=70&width=90p" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 d-block d-sm-none">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <img width="100%" src="https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt20f98cdc00774e75/66393ace5857a6240dc47053/huincha-m-060524-10csi-mama.jpg?disable=upscale&format=webp&quality=70&width=720" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- end page title -->
-                <div class="row justify-content-center"> <!-- Centering the carousel -->
-                <div class="col-1"></div>
-                    <div class="col-xl-10">
-                        <div class="card">
-                            <div class="card-body">
+                <div class="page-content">
+                    <div class="container-fluid row">
 
-                                <h4 class="card-title">With Indicators</h4>
-                                <p class="card-subtitle mb-4">You can also add the indicators to the carousel, alongside the controls, too.</p>
-
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-7.jpg" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-1.jpg" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-2.jpg" alt="Third slide">
-                                        </div>
+                        <!-- start page title -->
+                        <?php
+                        for ($i = 9; $i >= 0; $i--) { ?>
+                            <div class="col-lg-2 col-md-3 col-sm-6">
+                                <!-- Simple card -->
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="https://media.gqmagazine.fr/photos/65115b0b7b7a59f967918c00/16:9/w_2560%2Cc_limit/iPhone16-Ultra.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> APPLE</h5>
+                                        <p class="card-text">Celular Apple Iphone 13 128gb</p>
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
+                                    <ul class="list-group list-group-flush">
+                                        <li  class="list-group-item" style="color: red"><b>Precio Online: S/ 2,999.00 </b><span style="background-color: red; color:white" class="badge">- 40%</span></li>
+                                        <li class="list-group-item"><b>Precio Regular: S/ 3,099.00</b></li>
+                                    </ul>
+                                    <div class="card-body text-center">
+                                        <a href="#" class="card-link"><button type="button" class="btn btn-outline-dark btn-rounded waves-effect waves-light"><i class="fas fa-cart-plus"></i> Agregar al carrito</button></a>
+                                    </div>
                                 </div>
-                            </div> <!-- end card-body-->
-                        </div> <!-- end card-->
-                    </div> <!-- end col -->
-                    <div class="col-1"></div>
-                </div>
-            </div> <!-- container-fluid -->
+                            </div>
+                        <?php } ?>
+                        <!-- end page title -->
 
-
+                    </div> 
+                    <!-- container-fluid -->
                 </div>
+                <!-- container-fluid -->
                 <!-- End Page-content -->
 
                 <?php include('layout/footer.php'); ?>
