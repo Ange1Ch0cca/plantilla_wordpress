@@ -166,66 +166,149 @@
             <!-- ============================================================== -->
             <div class="main-content">
             <div class="page-content">
-            <div class="container-fluid">
-                <!-- start page title -->
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 d-none d-sm-block">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <img width="100%" src="https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt4d6d161ef903901b/66393ad070b5036c8d5c34cb/huincha-060524-10csi-mama.jpg?format=webp&quality=70&width=90p" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 d-block d-sm-none">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <img width="100%" src="https://images.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt20f98cdc00774e75/66393ace5857a6240dc47053/huincha-m-060524-10csi-mama.jpg?disable=upscale&format=webp&quality=70&width=720" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- end page title -->
-                <div class="row justify-content-center"> <!-- Centering the carousel -->
-                <div class="col-1"></div>
-                    <div class="col-xl-10">
-                        <div class="card">
-                            <div class="card-body">
-
-                                <h4 class="card-title">With Indicators</h4>
-                                <p class="card-subtitle mb-4">You can also add the indicators to the carousel, alongside the controls, too.</p>
-
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-0 font-size-18">Preguntas Frecuentes</h4>
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Páginas</a></li>
+                                        <li class="breadcrumb-item active">FAQs</li>
                                     </ol>
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-7.jpg" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-1.jpg" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-2.jpg" alt="Third slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
                                 </div>
-                            </div> <!-- end card-body-->
-                        </div> <!-- end card-->
-                    </div> <!-- end col -->
-                    <div class="col-1"></div>
-                </div>
-            </div> <!-- container-fluid -->
+                            </div>
+                        </div>
+                    </div>     
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="text-center mt-4">
+                                <h4>Preguntas Frecuentes</h4>
+                                <p class="text-muted mt-3 mb-4">Aquí encontrarás respuestas a las preguntas más frecuentes sobre nuestros productos y servicios.</p>
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+
+                    <div class="row mt-5">
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="mb-3 font-weight-bold text-uppercase">Envíos y Entregas</h5>
+                                    <div id="accordion">
+                                        <div class="card mb-1">
+                                            <div class="card-header bg-white border-bottom-0 p-3" id="headingOne">
+                                                <h5 class="m-0 font-size-16">
+                                                    <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                        aria-controls="collapseOne" class="text-dark">
+                                                        Q. ¿Cuánto tiempo tarda en llegar mi pedido?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseOne" class="collapse show"
+                                                    aria-labelledby="headingOne" data-parent="#accordion">
+                                                <div class="card-body text-muted pt-1">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, mi nec accumsan fringilla, nisl mi sollicitudin quam, ac lacinia ex nulla sit amet enim.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-1">
+                                            <div class="card-header bg-white border-bottom-0 p-3" id="headingTwo">
+                                                <h5 class="m-0 font-size-16">
+                                                    <a href="#" class="text-dark collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Q. ¿Cuál es el costo de envío?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                <div class="card-body text-muted pt-1">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, mi nec accumsan fringilla, nisl mi sollicitudin quam, ac lacinia ex nulla sit amet enim.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Agrega más preguntas y respuestas aquí -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="mb-3 font-weight-bold text-uppercase">Devoluciones y Reembolsos</h5>
+                                    <div id="accordion2">
+                                        <div class="card mb-1">
+                                            <div class="card-header bg-white border-bottom-0 p-3" id="headingFour">
+                                                <h5 class="m-0 font-size-16">
+                                                    <a href="#" class="text-dark collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                        Q. ¿Cuál es el proceso de devolución?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion2">
+                                                <div class="card-body text-muted pt-1">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, mi nec accumsan fringilla, nisl mi sollicitudin quam, ac lacinia ex nulla sit amet enim.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-1">
+                                            <div class="card-header bg-white border-bottom-0 p-3" id="headingFive">
+                                                <h5 class="m-0 font-size-16">
+                                                    <a href="#" class="text-dark collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                        Q. ¿Cómo obtengo un reembolso?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion2">
+                                                <div class="card-body text-muted pt-1">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, mi nec accumsan fringilla, nisl mi sollicitudin quam, ac lacinia ex nulla sit amet enim.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Agrega más preguntas y respuestas aquí -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="mt-0">¿Tienes alguna pregunta?</h5>
+                                    <p class="text-muted font-13 mb-4">Envíanos un correo electrónico con tus preguntas o contáctanos a través de Twitter.</p>
+                                    <form>
+                                        <div class="form-group row">
+                                            <div class="col-lg-6 mb-3 mb-lg-0">
+                                                <input class="form-control" type="text" id="name" placeholder="Nombre">                                                       
+                                            </div> 
+                                            <div class="col-lg-6">
+                                                <input class="form-control" type="email" id="example-email-input3" placeholder="Correo electrónico">
+                                            </div>                                                   
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-sm-12">
+                                                <input class="form-control" type="text" id="subject2" placeholder="Asunto">                                                       
+                                            </div>                                                    
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Tu mensaje"></textarea>
+                                        </div>                                                
+                                        <button type="submit" class="btn btn-primary btn-block px-4">Enviar mensaje</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
-                </div>
-                <!-- End Page-content -->
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
 
                 <?php include('layout/footer.php'); ?>
             </div>

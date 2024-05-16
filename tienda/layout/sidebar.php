@@ -1,146 +1,161 @@
 <!-- ========== Left Sidebar Start ========== -->
 <div class="vertical-menu">
+    <div data-simplebar class="h-100">
+        <div class="navbar-brand-box">
+            <a href="index.php" class="logo">
+                <i class="mdi mdi-album"></i>
+                <span>Xeloro</span>
+            </a>
+        </div>
 
-<div data-simplebar class="h-100">
-
-    <div class="navbar-brand-box">
-        <a href="index.html" class="logo">
-            <i class="mdi mdi-album"></i>
-            <span>
-                Xeloro
-            </span>
-        </a>
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu list-unstyled" id="side-menu">
+                <li class="menu-title">MENÚ</li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Electrónica</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="tienda.php">Teléfonos móviles</a></li>
+                        <li><a href="ui-cards.html">Computadoras portátiles</a></li>
+                        <li><a href="ui-carousel.html">Televisores</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Hogar y Cocina</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="ui-buttons.html">Electrodomésticos</a></li>
+                        <li><a href="ui-cards.html">Utensilios de cocina</a></li>
+                        <li><a href="ui-carousel.html">Decoración</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Deportes y aire libre</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="ui-buttons.html">Equipamiento deportivo</a></li>
+                        <li><a href="ui-cards.html">Ropa deportiva</a></li>
+                        <li><a href="ui-carousel.html">Actividades al aire libre</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Libros y entretenimiento</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="ui-buttons.html">Libros</a></li>
+                        <li><a href="ui-cards.html">Películas</a></li>
+                        <li><a href="ui-carousel.html">Música</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Belleza y cuidado personal</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="ui-buttons.html">Maquillaje</a></li>
+                        <li><a href="ui-cards.html">Cuidado de la piel</a></li>
+                        <li><a href="ui-carousel.html">Fragancias</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Juguetes y juegos</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="ui-buttons.html">Juguetes para niños</a></li>
+                        <li><a href="ui-cards.html">Juegos de mesa</a></li>
+                        <li><a href="ui-carousel.html">Juguetes educativos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-diamond-stone"></i>
+                        <span>Salud y bienestar</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="ui-buttons.html">Suplementos nutricionales</a></li>
+                        <li><a href="ui-cards.html">Equipamiento médico</a></li>
+                        <li><a href="ui-carousel.html">Cuidado personal</a></li>
+                    </ul>
+                </li>
+                <li class="menu-title">SERVICIOS</li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Envío gratuito</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Atención al cliente</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Seguimiento de pedidos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Gift cards</span>
+                    </a>
+                </li>
+                <li class="menu-title">MÁS INFO</li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Quiénes somos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contactos.php" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Contactos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="FAQs.php" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Preguntas Frecuentes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Política de devolución</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Términos y condiciones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html" class="waves-effect">
+                        <i class="mdi mdi-calendar-range-outline"></i>
+                        <span>Política de privacidad</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- Sidebar -->
     </div>
-
-    <!--- Sidemenu -->
-    <div id="sidebar-menu">
-        <!-- Left Menu Start -->
-        <ul class="metismenu list-unstyled" id="side-menu">
-            <li class="menu-title">Menu</li>
-
-            <li>
-                <a href="index.html" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span
-                        class="badge badge-pill badge-primary float-right">7</span><span>Dashboard</span></a>
-            </li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-diamond-stone"></i><span>UI Elements</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="ui-buttons.html">Buttons</a></li>
-                    <li><a href="ui-cards.html">Cards</a></li>
-                    <li><a href="ui-carousel.html">Carousel</a>
-                    <li><a href="ui-embeds.html">Embeds</a>
-                    <li><a href="ui-general.html">General</a></li>
-                    <li><a href="ui-grid.html">Grid</a></li>
-                    <li><a href="ui-media-objects.html">Media Objects</a></li>
-                    <li><a href="ui-modals.html">Modals</a></li>
-                    <li><a href="ui-progressbars.html">Progress Bars</a></li>
-                    <li><a href="ui-tabs.html">Tabs</a></li>
-                    <li><a href="ui-typography.html">Typography</a></li>
-                    <li><a href="ui-toasts.html">Toasts</a></li>
-                    <li><a href="ui-tooltips-popovers.html">Tooltips & Popovers</a></li>
-                    <li><a href="ui-scrollspy.html">Scrollspy</a></li>
-                    <li><a href="ui-spinners.html">Spinners</a></li>
-                    <li><a href="ui-sweetalerts.html">Sweet Alerts</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-table-merge-cells"></i><span>Tables</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="tables-basic.html">Basic Tables</a></li>
-                    <li><a href="tables-datatables.html">Data Tables</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-poll"></i><span>Charts</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="charts-morris.html">Morris</a></li>
-                    <li><a href="charts-google.html">Google</a></li>
-                    <li><a href="charts-chartjs.html">Chartjs</a></li>
-                    <li><a href="charts-sparkline.html">Sparkline</a></li>
-                    <li><a href="charts-knob.html">Jquery Knob</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript: void(0);" class="waves-effect"><i
-                        class="mdi mdi-format-list-bulleted-type"></i><span
-                        class="badge badge-pill badge-danger float-right">6</span><span>Forms</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="forms-elements.html">Elements</a></li>
-                    <li><a href="forms-plugins.html">Plugins</a></li>
-                    <li><a href="forms-validation.html">Validation</a></li>
-                    <li><a href="forms-mask.html">Masks</a></li>
-                    <li><a href="forms-quilljs.html">Quilljs</a></li>
-                    <li><a href="forms-uploads.html">File Uploads</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-black-mesa"></i><span>Icons</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="icons-materialdesign.html">Material Design</a></li>
-                    <li><a href="icons-fontawesome.html">Font awesome</a></li>
-                    <li><a href="icons-dripicons.html">Dripicons</a></li>
-                    <li><a href="icons-feather.html">Feather Icons</a></li>
-                </ul>
-            </li>
-
-            <li class="menu-title">More</li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-format-page-break"></i><span>Pages</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="pages-invoice.html">Invoice</a></li>
-                    <li><a href="pages-starter.html">Starter Page</a></li>
-                    <li><a href="pages-maintenance.html">Maintenance</a></li>
-                    <li><a href="pages-faqs.html">FAQs</a></li>
-                    <li><a href="pages-pricing.html">Pricing</a></li>
-                    <li><a href="pages-login.html">Login</a></li>
-                    <li><a href="pages-register.html">Register</a></li>
-                    <li><a href="pages-recoverpw.html">Recover Password</a></li>
-                    <li><a href="pages-lock-screen.html">Lock Screen</a></li>
-                    <li><a href="pages-404.html">Error 404</a></li>
-                    <li><a href="pages-500.html">Error 500</a></li>
-                </ul>
-            </li>
-
-            <li><a href="calendar.html" class=" waves-effect"><i
-                        class="mdi mdi-calendar-range-outline"></i><span>Calendar</span></a></li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-map-marker-radius"></i><span>Maps</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="maps-google.html">Google Maps</a></li>
-                    <li><a href="maps-vector.html">Vector Maps</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-share-variant"></i><span>Multi Level</span></a>
-                <ul class="sub-menu" aria-expanded="true">
-                    <li><a href="javascript: void(0);">Level 1.1</a></li>
-                    <li><a href="javascript: void(0);" class="has-arrow">Level 1.2</a>
-                        <ul class="sub-menu" aria-expanded="true">
-                            <li><a href="javascript: void(0);">Level 2.1</a></li>
-                            <li><a href="javascript: void(0);">Level 2.2</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-        </ul>
-    </div>
-    <!-- Sidebar -->
-</div>
 </div>
 <!-- Left Sidebar End -->
